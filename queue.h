@@ -7,6 +7,9 @@
 //creates an array of queue as line/serves and simulate a situation limited to a fixed time and finally give some important
 //data out based on the current simulation.
 
+#ifndef QUEUE_PROJECT
+#define QUEUE_PROJECT
+
 #include <iostream>
 using namespace std;
 
@@ -48,3 +51,7 @@ class queue
       // private memeber functions
 		int next_index ( int i ) const { return (i+1) % CAPACITY; }
   };
+
+  #include "queue.cpp"
+
+  #endif
