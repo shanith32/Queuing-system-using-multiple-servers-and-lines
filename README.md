@@ -1,0 +1,2 @@
+# Queuing-system-using-multiple-servers-and-lines
+This program simulates a queueing system based on the user input. The queuing system is made from one or multiple servers and lines. The user is prompted to input how many servers/lines should be tested on the simulation, the percentage of a customer presence, maximum waiting time and whole simulation time and a seed number to randomly create the time of the simulation. Based on this data, the main program uses enqueue() and dequeue() operators from the class to manipulate the queue ADT and accomplish the simulation. 
